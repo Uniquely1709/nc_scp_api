@@ -1,4 +1,3 @@
-import suds
 from suds.client import Client
 import json
 
@@ -25,7 +24,6 @@ class nc_client(object):
     def getVServerInformation(self, server):
         return (self.client.service.getVServerInformation(self.__customer, self.__api_password, server))      
 
-    def __init__(self, customer, api_password, timeout=5):
+    def __init__(self, customer, api_password):
         self.__customer = customer
         self.__api_password = api_password
-        self.__api_timeout = timeout
