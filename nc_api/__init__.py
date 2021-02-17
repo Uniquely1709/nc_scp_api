@@ -1,3 +1,4 @@
+import suds
 from suds.client import Client
 import json
 

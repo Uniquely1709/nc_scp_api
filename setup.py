@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name="nc_scp_api",
-    version="0.0.1",
+    version="0.0.2",
     author="Janneck Denda",
     author_email="j@denda.dev",
     description="API wrapper for the netcup scp api",
@@ -19,7 +19,7 @@ setuptools.setup(
     ],
     python_requires='>=3.6',
     install_requires=[
-        'suds',
+        'suds-py3',
     ],
     packages=setuptools.find_packages(),
 )
