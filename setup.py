@@ -11,7 +11,7 @@ setuptools.setup(
     description="API wrapper for the netcup scp api",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="",
+    url="https://github.com/jdenda/nc_scp_api",
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
